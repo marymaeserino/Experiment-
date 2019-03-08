@@ -1,0 +1,153 @@
+//This program shows the Total Ticket Sales
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std ;
+
+int main ()
+
+{
+	float ticketPrice;
+    float ticketSold;
+    float box;
+    float sideline;
+    float genadmission;
+    float premium;
+	float game1;
+	float game2;
+	float game3;
+	float game4;
+
+	cout << "game 1" << endl;
+	cout << "box " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game1;
+	cout << "Box Ticket Sales; " << game1 * 250 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 1 " << endl;
+	cout << "sideline " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game1;
+	cout << "Sideline Ticket Sales; " << game1 * 100 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 1  " << endl;
+	cout << "premium " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game1;
+	cout << "Premium Ticket Sales; " << game1 * 50 << endl;
+
+	cout << " " << endl;
+	
+	cout << "game 1  " << endl;
+	cout << "general admission " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game1;	
+	cout << "general admission Ticket Sales; " << game1 * 25 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 2 " << endl;
+	cout << "box " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game2;
+	cout << "Box Ticket Sales; " << game2 * 250 << endl;
+	
+    cout << " " << endl;
+
+	cout << "game 2 " << endl;
+	cout << "sideline " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game2;
+	cout << "sideline Ticket Sales; " << game2 * 100 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 2  " << endl;
+	cout << "premium " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game2;
+	cout << "premium Ticket Sales; " << game2 * 50 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 2 " << endl;
+	cout << "general admission " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game2;
+	cout << "general admission Ticket Sales; " << game2 * 25 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 3  " << endl;
+	cout << "box " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game2;
+	cout << "box Ticket Sales; " << game2 * 250 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 3  " << endl;
+	cout << "sideline " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game3;
+	cout << "sideline Ticket Sales; " << game3 * 100 << endl;
+
+	cout << " " << endl;
+	
+	cout << "game 3 " << endl;
+	cout << "premium " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game3;
+	cout << "premium Ticket Sales; " << game3 * 50 << endl;
+
+    cout << " " << endl;
+
+	cout << "game 3 " << endl;
+	cout << "general admission " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game3;
+	cout << "general admission Ticket Sales; " << game3 * 50 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 4  " << endl;
+	cout << "box " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game4;
+	cout << "box Ticket Sales; " << game4 * 250 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 4  " << endl;
+	cout << "sideline " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game4;
+	cout << "sideline Ticket Sales; " << game4 * 100 << endl;
+
+	cout << " " << endl;
+
+	cout << "game 4 " << endl;
+	cout << "premium " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game4;
+	cout << "premium Ticket Sales; " << game4 * 50 << endl;
+	
+	cout << " " << endl;
+
+	cout << "game 4  " << endl;
+	cout << "general admission " << endl;
+	cout << "Enter number of Tickets/s Sold " << endl;
+	cin >> game4;
+	cout << "general admission Ticket Sales; " << game4 * 25 << endl;
+
+	cout << " " << endl;
+	
+	_getch();
+
+	return 0;
+
+}
